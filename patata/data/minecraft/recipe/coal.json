@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:blasting",
+  "category": "misc",
+  "cookingtime": 10,
+  "experience": 0.1,
+  "group": "coal",
+  "ingredient": "minecraft:coal_ore",
+  "result": {
+	"id": "minecraft:diamond",
+	"count": 3,
+	"components": {"minecraft:consumable": {
+		"on_consume_effects": [{
+			"type": "teleport_randomly"
+		}]
+	}
+	}
+}
+}
+
+
